@@ -41,6 +41,27 @@ entries:
     urls:
     - assets/clock/clock-0.1.0.tgz
     version: 0.1.0
+  clock2:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.9.0
+    created: "2024-05-07T09:40:09.967172243Z"
+    description: Adds a new feature to the top-level menu that shows a full-page clock
+    digest: ac96eeaa7347dd68a8ddcfeb7983504a0db9268e857c522a5352b6c61eb62027
+    icon: https://raw.githubusercontent.com/rancher/ui-plugin-examples/main/pkg/clock/clock.svg
+    name: clock2
+    type: application
+    urls:
+    - https://github.com/JellyLin/ui-plugin-examples-cache/releases/download/clock2-0.9.0/clock2-0.9.0.tgz
+    version: 0.9.0
   extension-crd:
   - annotations:
       catalog.cattle.io/certified: rancher
@@ -143,6 +164,26 @@ entries:
     urls:
     - assets/homepage/homepage-0.1.0.tgz
     version: 0.1.0
+  openstack:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-05-07T09:40:11.079674758Z"
+    description: Example node driver UI for Openstack
+    digest: e4a777b0570a734582513b771c97b4a59b3c1df70bc3418147d7ff92ecbe900b
+    name: openstack
+    type: application
+    urls:
+    - https://github.com/JellyLin/ui-plugin-examples-cache/releases/download/openstack-1.0.0/openstack-1.0.0.tgz
+    version: 1.0.0
   top-level-product:
   - annotations:
       catalog.cattle.io/certified: rancher
@@ -182,7 +223,7 @@ entries:
     name: uk-locale
     type: application
     urls:
-      - assets/uk-locale/uk-locale-0.1.1.tgz
+    - assets/uk-locale/uk-locale-0.1.1.tgz
     version: 0.1.1
   - annotations:
       catalog.cattle.io/certified: rancher
@@ -204,4 +245,4 @@ entries:
     urls:
     - assets/uk-locale/uk-locale-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-03T11:58:24.240281711-04:00"
+generated: "2024-05-07T09:40:11.469744389Z"
